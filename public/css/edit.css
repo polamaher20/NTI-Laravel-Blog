@@ -1,0 +1,82 @@
+body {
+    background-image: linear-gradient(to bottom right, #2c3e50, #4ca1af);
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    color: white; 
+    width: 800px;
+}
+
+.card h1 {
+    color: #0d47a1;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.form-control {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    padding: 12px 15px;
+    font-size: 15px;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control {
+    border-color:white;
+    color: #fff;
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: #fff;
+    box-shadow: 0 0 8px rgb(255, 255, 255);
+    color: #fff;
+}
+
+
+
+.btn {
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 10px 22px;
+    transition: all 0.2s ease-in-out;
+    font-size: 15px;
+}
+
+.btn-success {
+    background-color: #2e7d32;
+    border: none;
+}
+.btn-success:hover {
+    background-color: #1b5e20;
+}
+
+.btn-secondary {
+    background-color: #757575;
+    border: none;
+}
+.btn-secondary:hover {
+    background-color: #555;
+}
+
+
+.alert {
+    border-radius: 10px;
+    padding: 12px 18px;
+    font-size: 14px;
+}
